@@ -77,7 +77,7 @@ def run_snake_with_params_clustered_wounds(blur, labels, mask, init, alpha, beta
                            alpha=alpha, beta=beta, gamma=gamma)
     return snake
 
-
+# not fully working
 def detect_wound_cluster(image, out_file):
     # Convert RGB to grayscale.
     gray = rgb2gray(image)
